@@ -2,15 +2,20 @@
 
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = '/about' %}
-		{% assign prompt = 'About the Author' %}
+		{% assign show-description = TRUE %}
 	{% else %}
 		{% assign link = '/' %}
-		{% assign prompt = 'Back to Home' %}
 	{% endif %}
 
-	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="http://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
-	</a>
-	<span class="logo-prompt">{{ prompt }}</span>
+
+	<header class="hero pure-g-r">
+		<div class="pure-u-1">
+			<a href="{{ link | prepend: site.baseurl }}">
+			<img class="bdl" src="/images/logo-latest.png" alt="BNJMN DNL LWLSS" />
+				<h1>is a&nbsp;storyteller.</h1>
+				{% if show-description = TRUE }<p>A poet, specifically. He's also a web developer, book publisher, graphic designer, and father. Which basically means he never&nbsp;sleeps.</p>{% endif %}
+			</a>
+		</div>
+	</header>
 
 </aside>

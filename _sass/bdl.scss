@@ -1,0 +1,65 @@
+@viewport{ zoom:1.0; width:extend-to-zoom; }
+@ms-viewport{ zoom:1.0; width:extend-to-zoom; }
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] { }
+.pure-button { text-shadow:none; }
+.pure-button-small { font-size:85%; }
+div {
+-webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+        box-sizing:border-box; }
+.l-box { padding:4em 1em; }
+.pure-button { -webkit-transition:0.5s all; -moz-transition:0.5s all; transition:0.5s all; }
+body .cover { background-position:center; background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	   -moz-background-size:cover;
+	        background-size:cover; }
+p.quote { font-style:italic; font-size:0.9em; }
+
+body { margin:0 auto; font-size:18px; line-height:1.6; color:#ccc; }
+h1,
+h2 { line-height:1.1; }
+
+.darkbg { background:rgba(0,0,0,0.6); }
+.lightbg { background:rgba(256,256,256,0.2); }
+
+.hero { text-align:center; color:#999; padding-top:40px; background:#333 url(/images/crissXcross.png); width: 100%; }
+.hero .bdl { max-height:200px;}
+.hero h1 { color:#fff;}
+.hero p { max-width:400px; margin:0 auto 60px; }
+
+.heading { text-align:center; color:#fff; background:#333; }
+.heading:after { content:""; width:0; height:0; position:relative; margin:10px auto -10px auto; border-left:10px solid transparent; border-right:10px solid transparent; border-top: 10px solid #333; }
+.heading h1 { font-weight:100; letter-spacing:10px; }
+@media (max-width:450px) {
+	.heading h1 { font-size:0.9em; }
+}
+
+.bees { background:url(/images/outshone.jpg) transparent; color:#fff; }
+.bees .l-box { text-align:center; }
+.bees p { padding:10px; }
+
+.books { background:url(/images/book-the_last_spelling_bee.jpg) transparent; color:#fff; height:100%; background-position:top
+!important; }
+
+body .fish {  }
+.fish .l-box { margin-top:30px; }
+@media (max-width:767px) {
+	body .fish.cover { }
+	.fish .l-box { margin-top:0; }
+}
+
+.ifwhen { background:url(/images/light_noise_diagonal.png); color:#333 !important; }
+.ifwhen .logo { background:url(/images/ifwhen.png) no-repeat; background-size:100%; background-position:center; min-height:300px; }
+@media (max-width:767px) {
+	.ifwhen .logo { min-height:200px; background-size:50%; margin-bottom:-40px; }
+}
+@media (max-width:450px) {
+	.ifwhen .logo { min-height:180px; background-size:90%; }
+}
+.ifwhen .pure-button { background:#302E2E; color:#fff; }
+.ifwhen .pure-button:hover { background:#535151; }
+
+.penciledin {  }
