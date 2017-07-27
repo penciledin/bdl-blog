@@ -4,7 +4,7 @@ updated: 2017-07-25 14:44
 tags: createspace
 ---
 
-Recently, many poets I've worked with have been agreeing to create a performance book. We have been calling them Reading Copies.
+Recently, I've worked with many poets to create performance books (sometimes calling them "Reading Copies").
 
 These books are intended to be much easier to read in a performance setting. They may feature:
 
