@@ -15,4 +15,4 @@ These books are intended to be much easier to read in a performance setting. The
 
 Depending on how different it is from the original copy, it may not take much effort to produce this new book.
 
-Many choose to keep the performance copy private (i.e., not for sale), but I'm starting to reconsider that stance. There is a benefit to providing a [Large-print book](https://en.wikipedia.org/wiki/Large-print) for those with poor vision. If this is the case, consider redesigning the work with more readable fonts.
+Many choose to keep the performance copy private (i.e., not for sale), but I'm starting to reconsider that stance. There is a benefit to providing a [Large-print book](https://en.wikipedia.org/wiki/Large-print) for those with poor vision.
